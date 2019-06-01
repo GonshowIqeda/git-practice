@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+header {
+  height: 70px;
+  background-color: #EC715F;
+}
+.header-contents {
+  width: 1024px;
+  height: 70px;
+  margin: 0 auto;
+}
+.logo {
+  float: left;
+  height: 70px;
+}
+/*nav要素の文字位置が微妙に違う*/
+.nav-list {
+  float: right;
+}
+.nav-list-item {
+    float: left;
+    width: 120px;
+    line-height: 70px;
+    color: #FAFAFA;
+    padding: 0 30px;
+    list-style: none;
+    font-size: 16px;
+}
+#main-visual {
+  background-image: url('img/mv.png');
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: 650px;
+}
+.main-visual-title {
+  text-align: center;
+  font-size: 64px;
+  font-weight: bold;
+  color: #FAFAFA;
+  padding-top: 200px;
+}
+.main-visual-sentence {
+  text-align: center;
+  font-size: 20px;
+  color: #FAFAFA;
+  padding-top: 10px;
+}
+#portfolio {
+  background-color: #ECEFF1;
+  padding-bottom: 90px;
+}
+.portfolio-contents{
+  width: 920px;
+  margin: 0 auto;
+}
+h2 {
+  padding-top: 90px;
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+  padding-bottom: 8px;
+}
+.under-line {
+  height: 33px;
+  width: 70px;
+  border-top: 3px solid #EC715F;
+  margin: 0 auto;
+}
+.portfolio-sentence {
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+  padding-bottom: 30px;
+}
+.im {
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  float: left;
+}
+.im:nth-child(1) {
+  background-image: url('img/sketch.jpg');
+  margin-right: 10px;
+}
+.im:nth-child(2) {
+  background-image: url('img/websuku.png');
+  margin-right: 10px;
+}
+.im:nth-child(3) {
+  background-image: url('img/write.jpg');
+  margin-bottom: 10px;
+}
+.im:nth-child(4) {
+  background-image: url('img/webcamp.png');
+  margin-right: 10px;
+}
+.im:nth-child(5) {
+  background-image: url('img/talk.jpg');
+}
+.im:nth-child(6) {
+  background-image: url('img/webcamp-mother.png');
+  margin-left: 10px;
+}
+#feature {
+  padding-bottom: 90px;
+}
+.feature-contents {
+  width: 980px;
+  margin: 0 auto;
+}
+.feature-sentence {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 16px;
+  color: #000000;
+}
+.strengths {
+
+}
+.strength {
+  height: auto;
+  width: 320px;
+  float: left;
+}
+.strength:nth-child(1) {
+  margin-right: 10px;
+}
+.strength:nth-child(2) {
+  margin-right: 10px;
+}
+.icon-container {
+  text-align: center;
+}
+.fa {
+  font-size:60px;
+}
+.strength-title {
+  text-align: center;
+  font-size: 20px;
+  color: #000000;
+  padding: 10px 0;
+}
+/*改行の位置を修正する*/
+.strength-sentence {
+  font-size: 16px;
+  color: #000000;
+}
+#profile {
+  background-color: #ECEFF1;
+  padding-bottom: 90px;
+}
+.profile-contents {
+  margin: 0 auto;
+  width: 1024px;
+}
+.profile-sentence {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 16px;
+    color: #000000;
+}
+.image_and_detail {
+}
+.img-container {
+  float: left;
+  width: 50%;
+}
+.imag {
+  border-radius: 50%;
+  background-image: url('img/my-icon.jpg');
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+.detail {
+}
+.myname {
+  font-size: 20px;
+  color: #000000;
+}
+.myname_detail {
+  padding-top: 5px;
+  font-size: 16px;
+  color: #000000;
+}
+.myskills {
+  padding-top: 20px;
+  font-size: 20px;
+  color: #000000;
+}
+.myskills_detail {
+  padding-top: 5px;
+  font-size: 16px;
+  color: #000000;
+}
+/*タイトルの微妙な左揃え
+  番号とメアドのリンク化
+  リンクの色
+  */
+#contact {
+  padding-bottom: 90px;
+}
+.contact-contents {
+  margin: 0 auto;
+  width: 800px;
+}
+.contact-sentence {
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+  padding-bottom: 10px;
+}
+.method-container {
+  margin: 0 auto;
+  width: 800px;
+}
+.MailTell {
+  float: left;
+  width: 50%;
+}
+.MailTell-contents {
+  margin: 0 auto;
+  width: 130px;
+}
+.methodtitle {
+  font-size: 20px;
+  padding-bottom: 5px;
+  color: #000000;
+  padding-top:20px;
+  text-align: left;
+}
+.address {
+  text-align: center;
+  color: #000000;
+}
+.number {
+  text-align: center;
+  color: #000000;
+}
+.SNS {
+  float: right;
+  width: 50%;
+}
+.sns_icon {
+  width: 170px;
+  margin: 0 auto;
+}
+.fab {
+  font-size: 50px;
+  color: #000000;
+  padding-right: 15px;
+}
+footer {
+  width: auto;
+  height: 60px;
+  background-color: #EC715F;
+}
+.copyright {
+  text-align: center;
+  font-size: 16px;
+  color: #FAFAFA;
+  line-height: 60px;
+}.fa-facebook:before {
+    content: "\f09a";
+}

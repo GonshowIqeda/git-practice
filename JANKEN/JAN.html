@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="JANstylesheet.css">
+    <meta charset="utf-8">
+    <title>じゃんけん</title>
+  </head>
+  <body>
+    <header><h1>じゃんけんゲ〜ム</h1></header>
+    <div id="select">
+      <div class="call">
+        <h1>どれを出す？</h1>
+      </div>
+      <div class="btn">
+        <input type="button" value="グー" onclick="game(1);"/>
+        <input type="button" value="チョキ" onclick="game(2);"/>
+        <input type="button" value="パー" onclick="game(3);"/>
+      </div>
+    </div>
+      <div id="meoryou">
+      <div class="me">
+        <h1>自分</h1>
+      </div>
+      <div class="you">
+        <h1>相手</h1>
+      </div>
+    </div>
+      <div class="myhand">
+        <h1 id="mygoo"><img src="goo.png" width="100" height="100"></h1>
+        <h1 id="mychoki"><img src="choki.png" width="100" height="100"></h1>
+        <h1 id="mypah"><img src="pah.png" width="100" height="100"></h1>
+      </div>
+      <div class="yourhand">
+        <h1 id="yourgoo"><img src="goo.png" width="100" height="100"></h1>
+        <h1 id="yourchoki"><img src="choki.png" width="100" height="100"></h1>
+        <h1 id="yourpah"><img src="pah.png" width="100" height="100"></h1>
+      </div>
+      <div class="res">
+        <h1 id="res1">あいこ</h1>
+        <h1 id="res2">勝ち</h1>
+        <h1 id="res3">負け</h1>
+      </div>
+      <div id="return">
+        <input type="button" value="もう一度" onclick="Initialize();"/>
+      </div>
+      <script src="JANscript.js"></script>
+  </body>
+</html>

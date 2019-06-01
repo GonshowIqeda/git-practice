@@ -1,0 +1,57 @@
+
+body {
+  background-color: blue;
+  font-size: 50px;
+}
+header{
+  font-family: 'arial unicode ms';
+  text-align: center;
+  color: pink;
+  height:0px;
+  padding-top: 30px;
+  font-size: 50px;
+}
+.call{
+  text-align: center;
+  padding-top: 100px;
+}
+.btn {
+  text-align: center;
+}
+
+.me {
+  width: 50%;
+  text-align: center;
+  display:inline-block;
+}
+.you {
+  width: 50%;
+  text-align: center;
+  float: right;
+}
+.yourhand {
+  width: 50%;
+  text-align: center;
+  float: right;
+}
+
+.myhand{
+  text-align: center;
+  width:50%;
+  display:inline-block;
+}
+.res{
+  text-align: center;
+}
+#res1{
+  color: green;
+}
+#res2{
+  color: red;
+}
+#res3{
+  color: blue;
+}
+#return {
+  text-align: center;
+}

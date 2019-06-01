@@ -1,0 +1,13 @@
+img {
+	height:100px;
+}
+#name {
+	color: blue;
+}
+#result {
+	color: green;
+}
+.copyright {
+	text-align: left;
+	opacity: 0.3;
+}
